@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio | Alan Chávez</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #121212;
+      color: white;
+      line-height: 1.6;
+    }
+    header, footer {
+      background: #1f1f1f;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 4rem;
+    }
+    h1, h2, h3 {
+      color: orange;
+    }
+    .proyecto {
+      background: #1c1c1c;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+      box-shadow: 0 0 10px rgba(255, 165, 0, 0.2);
+    }
+    .proyecto img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 0.5rem;
+    }
+    ul li {
+      background: #1c1c1c;
+      padding: 0.5rem;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(255, 165, 0, 0.1);
+    }
+    a {
+      color: orange;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border-radius: 5px;
+      border: none;
+    }
+    form button {
+      background: orange;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    form button:hover {
+      background: #e69500;
+    }
+    .cv-section {
+      background: #1c1c1c;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+    .cv-section a {
+      display: inline-block;
+      background: orange;
+      color: black;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .cv-section a:hover {
+      background: #e69500;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alan Jesús Chávez González</h1>
+    <h2>Desarrollador Full Stack Junior</h2>
+    <p>Soy un desarrollador con muchas ganas de aprender y aportar en proyectos reales. Me especializo en soluciones web con tecnologías modernas.</p>
+    <a href="https://github.com/Chavezgonzalez" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/chavez-gonzalez-alan-jesus-720249241/" target="_blank">LinkedIn</a>
+  </header>
+
+  <main>
+    <section>
+  <h2>Proyectos</h2>
+
+  <div class="proyecto">
+    <img src="FixMyRide.jpg" alt="fixMyRide - Reportes Transporte Público" />
+    <h3>fixMyRide</h3>
+    <p>Propuesta para levantar reportes del transporte público y mantener un registro mejor elaborado de fallas y problemas.</p>
+    <div class="tecnologias">
+      <img src="logos/html5.svg" alt="HTML5" title="HTML5" />
+      <img src="logos/css3.svg" alt="CSS3" title="CSS3" />
+      <img src="logos/javascript.svg" alt="JavaScript" title="JavaScript" />
+      <img src="logos/react.svg" alt="React" title="React" />
+      <img src="logos/mongodb.svg" alt="MongoDB" title="MongoDB" />
+      <img src="logos/nodejs.svg" alt="Node.js" title="Node.js" />
+    </div>
+    <p class="btn-github"><a href="https://github.com/Chavezgonzalez/fixMyRide.git" target="_blank">Ver en GitHub</a></p>
+  </div>
+
+  <div class="proyecto">
+    <img src="Individual.webp" alt="Proyecto Individual - Gestión de tareas" />
+    <h3>Proyecto Individual</h3>
+    <p>Registro y login de usuarios, con gestión completa para crear, editar y eliminar tareas. Cuenta con roles de usuario y admin.</p>
+    <div class="tecnologias">
+      <img src="logos/html5.svg" alt="HTML5" title="HTML5" />
+      <img src="logos/css3.svg" alt="CSS3" title="CSS3" />
+      <img src="logos/javascript.svg" alt="JavaScript" title="JavaScript" />
+      <img src="logos/mongodb.svg" alt="MongoDB" title="MongoDB" />
+      <img src="logos/nodejs.svg" alt="Node.js" title="Node.js" />
+      <img src="logos/express.svg" alt="Express" title="Express" />
+    </div>
+    <p class="btn-github"><a href="https://github.com/Chavezgonzalez/Proyecto_Integrador" target="_blank">Ver en GitHub</a></p>
+  </div>
+
+  <div class="proyecto">
+    <img src="https://imgs.search.brave.com/_RYuEXwQCq6FR48jb71KGjzjnxSiFSCJOn_gFVeSrAM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTQv/MjY5LzEyNy9zbWFs/bC9zdXJ2ZXktZm9y/bS1jb25jZXB0LWNo/ZWNrLW1hcmtzLW9u/LWNoZWNrbGlzdC1h/bmQtZmlsbGluZy1v/bmxpbmUtZm9ybS1v/ci1hbnN3ZXJpbmct/cXVlc3Rpb25zLWN1/c3RvbWVyLWV4cGVy/aWVuY2VzLWFuZC1z/YXRpc2ZhY3Rpb24t/Y29uY2VwdC1waG90/by5qcGc" alt="Encuestas - Registro de respuestas" />
+    <h3>Encuestas</h3>
+    <p>Proyecto para registrar respuestas de encuestas a usuarios con una interfaz sencilla y funcional.</p>
+    <div class="tecnologias">
+      <img src="logos/html5.svg" alt="HTML5" title="HTML5" />
+      <img src="logos/css3.svg" alt="CSS3" title="CSS3" />
+      <img src="logos/javascript.svg" alt="JavaScript" title="JavaScript" />
+    </div>
+    <p class="btn-github"><a href="https://github.com/Chavezgonzalez/Encuestas" target="_blank">Ver en GitHub</a></p>
+  </div>
+</section>
+
+<style>
+  .proyecto {
+    background: #1c1c1c;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.2);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .proyecto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  .tecnologias {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 0.75rem 0;
+  }
+  .tecnologias img {
+    width: 32px;
+    height: 32px;
+  }
+  .btn-github {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .btn-github a {
+    background: orange;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s;
+  }
+  .btn-github a:hover {
+    background: #e69500;
+  }
+</style>
+
+
+    <section class="cv-section">
+      <h2>CV Profesional</h2>
+      <p>Descarga mi CV en PDF con mis datos, formación, habilidades y proyectos destacados.</p>
+      <a href="CV_Alan_Jesus_Chavez_Gonzalez.pdf" download>📄 Descargar CV</a>
+    </section>
+
+    <section>
+      <h2>Habilidades Técnicas</h2>
+      <ul>
+        <li>🟨 JavaScript</li>
+        <li>🌐 HTML / CSS</li>
+        <li>🔥 Firebase</li>
+        <li>🍃 MongoDB</li>
+        <li>⚙️ Node.js (básico)</li>
+        <li>🛠️ Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>📧 alanjesuschavezgonzalez@gmail.com</p>
+      <a href="https://www.linkedin.com/in/chavez-gonzalez-alan-jesus-720249241/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Chavezgonzalez" target="_blank">GitHub</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alan Jesús Chávez González</p>
+  </footer>
+</body>
+</html>
